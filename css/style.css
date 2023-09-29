@@ -1,9 +1,9 @@
 /********** Template CSS **********/
 :root {
-    --primary: rgb(255,148,78);
-    --secondary: rgb(66, 6, 6);
-    --light: rgb(205,205,205);
-    --dark: #262b47;
+    --primary: #c75000;
+    --secondary: black;
+    --light: white;
+    --dark: #2B2A30;
 }
 
 /*** Spinner ***/
@@ -290,9 +290,9 @@ h6,
 .hero-header {
     margin-bottom: 6rem;
     padding: 16rem 0 0 0;
-    background: url(../img/bg-circle.png), url(../img/bg-triangle.png),
+    background-image: url(../img/bg-circle.png), url(../img/bg-triangle.png),
         url(../img/bg-bottom.png),
-        linear-gradient(to bottom right, var(--primary), var(--secondary));
+    linear-gradient(to top right, var(--primary), var(--secondary));
     background-position: left 0px top 0px, right 0px top 50%, center bottom;
     background-repeat: no-repeat;
 }
