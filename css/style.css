@@ -1,9 +1,9 @@
 /********** Template CSS **********/
 :root {
-    --primary: #c75000;
-    --secondary: black;
-    --light: white;
-    --dark: #2B2A30;
+    --primary: #5c010d;
+    --secondary: #000000;
+    --light: #ffffff;
+    --dark: #000000;
 }
 
 /*** Spinner ***/
@@ -103,23 +103,23 @@ h6,
     opacity: 0;
 }
 
-.btn.btn-primary-gradient,
+/* .btn.btn-primary-gradient,
 .btn.btn-secondary-gradient::after {
     background: linear-gradient(
         to bottom right,
         var(--primary),
         var(--secondary)
     );
-}
+} */
 
-.btn.btn-secondary-gradient,
+/* .btn.btn-secondary-gradient,
 .btn.btn-primary-gradient::after {
     background: linear-gradient(
         to bottom right,
         var(--secondary),
         var(--primary)
     );
-}
+} */
 
 .btn.btn-primary-gradient:hover::after,
 .btn.btn-secondary-gradient:hover::after {
@@ -194,7 +194,7 @@ h6,
 
 .sticky-top.navbar-light .navbar-nav .nav-link {
     padding: 20px 0;
-    color: var(--dark) !important;
+    color: #2c0106 !important;
 }
 
 .navbar-light .navbar-nav .nav-link:hover::before,
@@ -230,7 +230,10 @@ h6,
     .sticky-top.navbar-light .navbar-nav .nav-link {
         padding: 10px 0;
         margin-left: 0;
-        color: var(--dark) !important;
+        background: linear-gradient(
+            to bottom right,
+            var(--primary),
+            var(--secondary)) !important;
     }
 
     .navbar-light .navbar-nav .nav-link::before {
@@ -303,6 +306,57 @@ h6,
     }
 }
 
+.about {
+    position: relative;
+    width: 100%;
+    margin: -45px 0 45px 0;
+}
+
+.about .about-header{
+    margin-bottom: 2px;
+}
+
+.about .section-header {
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.about .about-text p {
+    font-size: 16px;
+}
+
+.about .skills {
+    margin-bottom: 30px;
+}
+
+.about .skill-name {
+    margin-top: 15px;
+}
+
+.about .skill-name p {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.about .skill-name p:last-child {
+    float: right;
+}
+
+.about .progress {
+    height: 10px;
+    border-radius: 10px;
+    background: #dddddd;
+}
+
+.about .progress .progress-bar {
+    width: 0px;
+    background: #66010d;
+    border-radius: 10px;
+    transition: 2s;
+}
+
 /*** Feature ***/
 .feature-item {
     transition: 0.5s;
@@ -345,7 +399,7 @@ h6,
 /*** Screenshot ***/
 .screenshot-carousel {
     position: relative;
-    width: 253px;
+    width: 256px;
     height: 500px;
     padding: 15px;
     margin-right: 30px;
@@ -358,8 +412,8 @@ h6,
     height: 100%;
     top: 0;
     left: 0;
-    background: url(../img/screenshot-frame.png) center center no-repeat;
-    background-size: 253px 500px;
+    background: url(../img/carousel-frame.png) center center no-repeat;
+    background-size: 300px 500px;
     z-index: 1;
 }
 
