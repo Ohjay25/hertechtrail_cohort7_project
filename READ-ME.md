@@ -30,13 +30,18 @@
   This project was started by structuring the website using the respective HTML codes, styling and responsiveness with SCSS, Bootstrap and implementing functionality using Javascript
 
   ## Built With
+
   * HTML5 Markup
   * SCSS Script writing language
   * Bootstrap
   * Javascript
 
 ## Author
-* Twitter - 
+
+* Github - (https://github.com/Ohjay25)
+* Twitter - (https://twitter.com/ojwilson_)
+* LinkedIn - (https://www.linkedin.com/in/joy-wilson-9b96a7231/)
 
 ## Acknowledgement
+
 I would like to appreciate the founder of HerTechTrail and my wonderful coach @PrincessMaggy for encouraging me and helping me push through all through the process of my training.
