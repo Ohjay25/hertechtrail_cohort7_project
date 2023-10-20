@@ -20,6 +20,11 @@
     opacity: 1;
 }
 
+body,
+html{
+    overflow-x: hidden;
+}
+
 /*** Heading ***/
 h1,
 h2,
@@ -745,3 +750,4 @@ h6,
     padding-right: 0;
     border-right: none;
 }
+
