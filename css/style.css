@@ -20,6 +20,10 @@
     opacity: 1;
 }
 
+#spinner .spinner-grow{
+    color: #5c010d;
+}
+
 body,
 html{
     overflow-x: hidden;
@@ -214,13 +218,13 @@ h6,
     }
 
     .navbar-light .navbar-nav .nav-link,
-    .sticky-top.navbar-light .navbar-nav .nav-contact .nav-link {
+    .sticky-top.navbar-light .navbar-nav .nav-link {
         padding: 10px 0;
         margin-left: 0;
-        background: linear-gradient(
+        /* background: linear-gradient(
             to bottom right,
             var(--primary),
-            var(--secondary)) !important;
+            var(--secondary)) !important; */
     }
 
     .navbar-light .navbar-nav .nav-link::before {
@@ -228,7 +232,7 @@ h6,
     }
 
     .navbar-light .navbar-nav .nav-link:hover,
-    .navbar-light .navbar-nav .nav-link.active {
+    .navbar-light .navbar-nav .nav-link {
         color: var(--primary) !important;
     }
 
